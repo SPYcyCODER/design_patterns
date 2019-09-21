@@ -1,0 +1,3 @@
+#!/bin/bash
+
+g++ -std=c++11 $1 -o ./out/`echo $1 | cut -d'.' -f 1`
